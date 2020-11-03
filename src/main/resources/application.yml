@@ -1,0 +1,7 @@
+server:
+  port: 8445
+  ssl:
+    key-alias: https-example
+    key-store-type: JKS
+    key-password: password
+    key-store: "class:https-example.jks"
